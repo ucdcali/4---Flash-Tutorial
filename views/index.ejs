@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App</title>
+</head>
+<body>
+  <h1>Welcome to My App</h1>
+  <% if (flashMessages.info) { %>
+    <p style="color: blue;"><%= flashMessages.info %></p>
+  <% } %>
+  <a href="/set-info">Set Info Message</a>
+</body>
+</html>
