@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 
 // Controller that sets an info flash message
 app.get('/set-info', (req, res) => {
-  const summary = 'Whoa, this is an informational message.';
+  const summary = 'This is an informational message.';
   req.flash('info', summary);
   res.redirect('/');
 });
